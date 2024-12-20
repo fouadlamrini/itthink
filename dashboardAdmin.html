@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <div class="sidebar">
+        <div class="logo"> DASHBOARD </div>
+        <div class="user">
+            <div class="avatar"></div>
+            <p>Admin</p>
+        </div>
+        <ul>
+            <li> Projet</li>
+            <li>Categorie </li>
+            <li>Sous-categorie</li>
+            <li>Freelance</li>
+            <li>offres</li>
+            <li style="color: red;">Deconnexion</li>
+        </ul>
+    </div>
+
+
+    <div class="main-content">
+        <header>
+            <input type="text" placeholder="Search">
+            <div class="icons">
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-cog"></i>
+            </div>
+        </header>
+
+        
+        <section class="stats">
+            <div class="card">
+                <i class=""></i>
+                <p class="value"></p>
+                <p> users </p>
+                
+            </div>
+            <div class="card">
+                <i class=""></i>
+                <p class="value"></p>
+                <p>projet</p>
+                
+            </div>
+            <div class="card">
+                <i class=""></i>
+                <p class="value"></p>
+                <p> freelance</p>
+           
+            </div>
+            <div class="card">
+                <i class=""></i>
+                <p class="value"></p>
+                <p> offres </p>
+               
+            </div>
+        </section>
+
+        <section class="table">
+            <h3>Table</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th> id</th>
+                        <th>nom</th>
+                        <th>email</th>
+                        <th>phone</th>
+                        <th>operation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>   </td>
+                        <td></td>
+                        <td class=" "></td>
+                        <td></td>
+                        <td>
+                            <a href="#" class="edit">Edit</a>
+                            <a href="#" class="delete">Delete</a>
+                            <a href="#" class="ajouter">Ajouter</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>

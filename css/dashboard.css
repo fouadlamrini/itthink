@@ -1,0 +1,175 @@
+/* Réinitialisation globale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #f4f6f9;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background-color: #1f263e;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar .user {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar .avatar {
+    width: 60px;
+    height: 60px;
+    background-color: #2d3748;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul li i {
+    margin-right: 10px;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+header input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+header .icons i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Cards */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+}
+
+.card i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.card .value {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.green { background-color: #28a745; }
+.red { background-color: #dc3545; }
+.orange { background-color: #fd7e14; }
+.blue { background-color: #007bff; }
+
+/* Charts */
+.charts {
+    display: flex;
+    margin: 20px 0;
+}
+
+.line-chart, .donut-chart {
+    flex: 1;
+    margin: 0 10px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Table */
+table {
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #1f263e;
+    color: #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+.edit {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.delete {
+    color: #dc3545;
+    text-decoration: none;
+}
+.ajouter {
+    color: #0adb5a;
+    text-decoration: none;
+    margin-left: 10px;
+}
